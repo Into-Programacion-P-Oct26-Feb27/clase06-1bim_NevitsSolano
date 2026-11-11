@@ -1,3 +1,4 @@
+
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
@@ -61,16 +62,17 @@ public class Comercio012 {
         if (productividad <= 30) {
             bono = 25; // $25
             sueldoFinal = adicionalSeguro + bono + sueldoBasico;
-            System.out.printf("Nombre de la Empresa\n\n"
+            System.out.printf("Nombre de la Empresa: %s\n\n"
                     + "Nombres: %s\n"
                     + "Apellidos: %s\n"
                     + "Edad: %d\n"
                     + "Sueldo: $%.2f\n"
                     + "Número de productos vendidos: %d\n"
-                    + "\tProductidad: %.2f\n"
+                    + "\tProductividad: %.2f\n"
                     + "\tBono: $%.2f\n"
                     + "Adicional del seguro: $%.2f\n\n"
                     + "Sueldo final: $%.2f\n",
+                    nombreEmpresa,
                     nombre,
                     apellido,
                     edad,
@@ -79,103 +81,108 @@ public class Comercio012 {
                     productividad,
                     bono,
                     adicionalSeguro,
-                    nombreEmpresa,
                     sueldoFinal);
 
         } else {
             if (productividad > 30 && productividad < 80) {
                 bono = 50;
                 sueldoFinal = adicionalSeguro + bono + sueldoBasico;
-                System.out.printf("Nombre de la Empresa\n\n"
-                        + "Nombres: %s\n"
-                        + "Apellidos: %s\n"
-                        + "Edad: %d\n"
-                        + "Sueldo: $%.2f\n"
-                        + "Número de productos vendidos: %d\n"
-                        + "\tProductidad: %.2f\n"
-                        + "\tBono: $%.2f\n"
-                        + "Adicional del seguro: $%.2f\n\n"
-                        + "Sueldo final: $%.2f\n",
-                        nombre,
-                        apellido,
-                        edad,
-                        sueldoBasico,
-                        numeroProductos,
-                        productividad,
-                        bono,
-                        adicionalSeguro,
-                        nombreEmpresa,
-                        sueldoFinal);
+            System.out.printf("Nombre de la Empresa: %s\n\n"
+                    + "Nombres: %s\n"
+                    + "Apellidos: %s\n"
+                    + "Edad: %d\n"
+                    + "Sueldo: $%.2f\n"
+                    + "Número de productos vendidos: %d\n"
+                    + "\tProductividad: %.2f\n"
+                    + "\tBono: $%.2f\n"
+                    + "Adicional del seguro: $%.2f\n\n"
+                    + "Sueldo final: $%.2f\n",
+                    nombreEmpresa,
+                    nombre,
+                    apellido,
+                    edad,
+                    sueldoBasico,
+                    numeroProductos,
+                    productividad,
+                    bono,
+                    adicionalSeguro,
+                    sueldoFinal);
 
             } else {
                 if (productividad >= 80 && productividad < 200) {
                     bono = 100;
                     sueldoFinal = adicionalSeguro + bono + sueldoBasico;
-                    System.out.printf("Reporte de Empleado EL GRAN COMERCIO\n\n"
-                            + "Nombres: %s\n"
-                            + "Apellidos: %s\n"
-                            + "Edad: %d\n"
-                            + "Sueldo: $%.2f\n"
-                            + "Número de productos vendidos: %d\n"
-                            + "\tProductidad: %.2f\n"
-                            + "\tBono: $%.2f\n"
-                            + "Adicional del seguro: $%.2f\n\n"
-                            + "Sueldo final: $%.2f\n",
-                            nombre,
-                            apellido,
-                            edad,
-                            sueldoBasico,
-                            numeroProductos,
-                            productividad,
-                            bono,
-                            adicionalSeguro,
-                            sueldoFinal);
+            System.out.printf("Nombre de la Empresa: %s\n\n"
+                    + "Nombres: %s\n"
+                    + "Apellidos: %s\n"
+                    + "Edad: %d\n"
+                    + "Sueldo: $%.2f\n"
+                    + "Número de productos vendidos: %d\n"
+                    + "\tProductividad: %.2f\n"
+                    + "\tBono: $%.2f\n"
+                    + "Adicional del seguro: $%.2f\n\n"
+                    + "Sueldo final: $%.2f\n",
+                    nombreEmpresa,
+                    nombre,
+                    apellido,
+                    edad,
+                    sueldoBasico,
+                    numeroProductos,
+                    productividad,
+                    bono,
+                    adicionalSeguro,
+                    sueldoFinal);
+
 
                 } else {
                     if (productividad >= 200 && productividad <= 500) {
                         bono = 200;
                         sueldoFinal = adicionalSeguro + bono + sueldoBasico;
-                        System.out.printf("Reporte de Empleado EL GRAN COMERCIO\n\n"
-                                + "Nombres: %s\n"
-                                + "Apellidos: %s\n"
-                                + "Edad: %d\n"
-                                + "Sueldo: $%.2f\n"
-                                + "Número de productos vendidos: %d\n"
-                                + "\tProductidad: %.2f\n"
-                                + "\tBono: $%.2f\n"
-                                + "Adicional del seguro: $%.2f\n\n"
-                                + "Sueldo final: $%.2f\n",
-                                nombre,
-                                apellido,
-                                edad,
-                                sueldoBasico,
-                                numeroProductos,
-                                productividad,
-                                bono,
-                                adicionalSeguro,
-                                sueldoFinal);
+            System.out.printf("Nombre de la Empresa: %s\n\n"
+                    + "Nombres: %s\n"
+                    + "Apellidos: %s\n"
+                    + "Edad: %d\n"
+                    + "Sueldo: $%.2f\n"
+                    + "Número de productos vendidos: %d\n"
+                    + "\tProductividad: %.2f\n"
+                    + "\tBono: $%.2f\n"
+                    + "Adicional del seguro: $%.2f\n\n"
+                    + "Sueldo final: $%.2f\n",
+                    nombreEmpresa,
+                    nombre,
+                    apellido,
+                    edad,
+                    sueldoBasico,
+                    numeroProductos,
+                    productividad,
+                    bono,
+                    adicionalSeguro,
+                    sueldoFinal);
+
                     } else {
                         bono = 300;
                         sueldoFinal = adicionalSeguro + bono + sueldoBasico;
-                        System.out.printf("Reporte de Empleado EL GRAN COMERCIO\n\n"
-                                + "Nombres: %s\n"
-                                + "Apellidos: %s\n"
-                                + "Edad: %d\n"
-                                + "Sueldo: $%.2f\n"
-                                + "Número de productos vendidos: %d\n"
-                                + "\tProductidad: %.2f\n"
-                                + "\tBono: $%.2f\n"
-                                + "Adicional del seguro: $%.2f\n\n"
-                                + "Sueldo final: $%.2f\n",
-                                nombre,
-                                apellido,
-                                edad,
-                                sueldoBasico,
-                                numeroProductos,
-                                productividad,
-                                bono,
-                                adicionalSeguro,
-                                sueldoFinal);
+            System.out.printf("Nombre de la Empresa: %s\n\n"
+                    + "Nombres: %s\n"
+                    + "Apellidos: %s\n"
+                    + "Edad: %d\n"
+                    + "Sueldo: $%.2f\n"
+                    + "Número de productos vendidos: %d\n"
+                    + "\tProductividad: %.2f\n"
+                    + "\tBono: $%.2f\n"
+                    + "Adicional del seguro: $%.2f\n\n"
+                    + "Sueldo final: $%.2f\n",
+                    nombreEmpresa,
+                    nombre,
+                    apellido,
+                    edad,
+                    sueldoBasico,
+                    numeroProductos,
+                    productividad,
+                    bono,
+                    adicionalSeguro,
+                    sueldoFinal);
+
                     }
                 }
             }

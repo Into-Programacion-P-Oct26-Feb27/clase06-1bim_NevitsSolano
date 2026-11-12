@@ -10,6 +10,7 @@ package manejocadenas;
  * @author reroes
  */
 public class Ejemplo02 {
+
     public static void main(String[] args) {
         String ciudad = "loJa";
         ciudad = ciudad.toUpperCase();
@@ -18,6 +19,6 @@ public class Ejemplo02 {
         System.out.printf("%s\n", ciudad);
         // toLowerCase es un método
         // toUpperCase es un método
-        
+
     }
 }

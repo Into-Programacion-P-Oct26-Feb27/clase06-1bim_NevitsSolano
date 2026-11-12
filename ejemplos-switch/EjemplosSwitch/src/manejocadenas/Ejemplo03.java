@@ -45,3 +45,8 @@ public class Ejemplo03 {
 
     }
 }
+
+
+/* Sirve para darle formato y esrcutura a un texto, como acumular una lsita de
+cosas y al final presentarlo de manera ordenada.
+*/
